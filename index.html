@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta charset="gb2312">
+<head>
+<title>VOCALOID</title>
+<link rel="icon" href="images/icon.png">
+<!--网页中所有图片均由本人从网络搜集、美化，使用PS制作了全部具有透明效果的PNG图片（如logo）-->
+	<script type="text/javascript">
+	function preLoadImg(){
+  	var img=new Image();
+  	img.src="images/上 (1).png";
+	}
+	window.onload=preLoadImg();
+
+	function TestAlert(){
+  	alert("2019.7.18 祈福京阿尼\n祈愿逝者安息，伤者早日康复\nPray for Kyoto Animation.\nR.I.P\n\n2019.7.21 纪念人类登月50周年！\n——我们的征途是星辰大海！\n\n2019.7.26 ex站（http://exhentai.org/）关闭，eh站时日不多\nhttp://suo.im/4ZAEcP\nhttp://suo.im/4vwgZh\n\n2019.8.2 ex站复活，服务器迁移至摩尔达维亚。\n\n2019.8.10凌晨 小米路由3G成功刷入老毛子固件（Padavan）！\n\n2019.8.10 B站账号等级将于明日届升Lv6！\n\n2019.8.10 12:48 B站账号成功达成Lv6成就！\n哔哩哔哩 - ( ゜- ゜)つロ 乾杯~");
+	}
+	window.onload=TestAlert();
+
+	</script>
+	
+
+	<style type="text/css">
+html.grey {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    _-webkit-filter: none;
+    _filter: none;
+}
+
+/* 图片放大动画代码 */
+.div-anime{
+	width: auto;
+	height: auto;
+	margin: 50px auto;
+	/* overflow: hidden; */
+}
+.div-anime img{
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.div-anime img:hover{
+	transform: scale(1.3);
+}
+
+
+.div-anime2{/* 在div内放大用 */
+	width: 1100px;
+	height: 600px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+.div-anime2 img{
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.div-anime2 img:hover{
+	transform: scale(1.4);
+}
+
+
+/* banner自适应屏幕代码 */
+.bannerbox {
+    width:100%;/* banner外部盒子，防止范围溢出 */
+    position:relative;
+    overflow:hidden;
+    height:230px;
+}
+.banner {/* banner图片样式 */
+    width:631px; /* 图片宽度 */
+    position:absolute;
+    left:50%;	
+    margin-left:-315px; /* 图片宽度的一半 */
+} 
+
+.back-to-top img {/* 回到顶部按钮样式 */
+	position: fixed;
+	right: 30px;
+	bottom: 80px;
+	width: 60px;
+	height: auto;
+	border: 0px;
+}
+
+*{ margin: 0 auto; padding: 0; font: 18px/24px font-family: "微软雅黑"; }
+nav{ height: 40px; width: 100%; margin-top: 10px; background: #65666d;}/* 导航栏 */
+nav div{ width: 100%;margin: 0 auto;text-align:center;}
+nav a{ color: #fff; font-size: 20px; text-decoration: none; }
+nav li{ list-style: none; padding: 0 80px; line-height: 40px; border-right: solid 1px #56585d; display:inline;}
+nav li:hover{ background: #66ccff }
+	</style>
+
+</head>
+	<!-- 背景图片 -->
+<body background="backgrounds/bg1.jpg" style="background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:fixed;">
+	<!-- 背景音乐 -->
+<embed src="audios/儿时的夏日.mp3" hidden="true" autostart="true" loop="true"></embed>
+<div class="bannerbox">
+	<a class="back-to-top" href="#">
+		<img src="images/上.png" onmouseover="this.src='images/上 (1).png'" onmouseout="this.src='images/上.png'"></a>
+		
+        <div class="banner">
+			<marquee direction="down" behavior="slide" scrollamount="17" scrolldelay="118">
+            <img src="images\vocaloid logo2.png" width="631" height="230" alt=""/>
+			</marquee>
+        </div>
+    </div> 
+
+<nav>
+		<div>
+			<a href="index.html"><li>首页</li></a>
+			<a href="Vsingers.html"><li>虚拟歌手</li></a>
+			<a href="http://vocakey.info/" target="_blank"><li>资源</li></a>
+			<a href="login.html"><li>用户反馈</li></a>
+			<a href="https://www.vocaloid.com/en/" target="_blank"><li>官网</li>
+			</a>
+		</div>
+</nav>
+	<br>
+	<hr><p><h3><b><center>
+	<marquee direction="right" behavior="slide" scrollamount="46" width="50%" scrolldelay="100">VOCALOID是乐器制造商雅马哈公司开发的电子音乐制作语音</marquee><marquee direction="left" behavior="slide" scrollamount="46" width="50%" scrolldelay="100">
+	合成软件，输入音调和歌词，就可以合成为原为人类声音的歌声</marquee></center></b></h3></p>
+	<hr>
+	<div class="div-anime">
+     <valign=top>
+		<MARQUEE onmouseover=stop() onmouseout=start() scrollAmount=6 direction=up width=270 height=400>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前该程序分为VOCALOID、VOCALOID2、VOCALOID 3、VOCALOID 4、VOCALOID 5共五代，该软件采用Yamaha公司旗下的「Frequency-domain Singing Articulation Splicing and Shaping」技术，采集不同人类的声音标本，然后再制作歌声资料库（音源/声库），从而合成声音。<br>2003年2月推出首个版本，2007年1月推出新版本VOCALOID 2。<br>2008年4月4日，发表开发线上版“NetVOCALOID”，9月30日于“CEATEC JAPAN 2008”正式展示，可于网页浏览器直接使用，相比非网上版，因为是由服务器计算合成声音，客户端的电脑负荷可大大减低。<br>2009年4月9日正式公开，服务提供于部分手提电话。<br>VOCALOID 3于2011年10月21日正式发售。<br>时隔3年后VOCALOID 4于2014年11月20日正式公布，于2014年12月31日发售。<br>2018年7月12日，VOCALOID5正式公布。</MARQUEE>
+		 
+	<tr> 
+	<a href="http://vocakey.info/vocaloid3_crack" target="_blank">
+		<td><img src="images\v3_editor.png" width="220" height="343"></td></a>
+	<a href="http://vocakey.info/vocaloid4_crack" target="_blank">
+		<td><img src="images\v4_editor.png" width="380" height="378"></td></a>
+	<a href="http://vocakey.info/vocaloid5_crack" target="_blank">
+		<td><img src="images\v5_editor.png" width="400" height="296"></td></a>
+	</tr>
+	</div>
+
+<br>
+<br>
+<hr>
+<br>
+<center>	
+<table border="5" width="800"><tr>
+<th>版本</th>
+<th>发行时间
+</th></tr>
+<tr>
+<td align="center">VOCALOID</td>
+<td align="center">2004年1月
+</td></tr>
+<tr>
+<td align="center">VOCALOID 2</td>
+<td align="center">2007年1月
+</td></tr>
+<tr>
+<td align="center">NetVOCALOID</td>
+<td align="center">2008年4月4日
+</td></tr>
+<tr>
+<td align="center">VOCALOID 3</td>
+<td align="center">2011年12月22日
+</td></tr>
+<tr>
+<td align="center">VOCALOID 4</td>
+<td align="center">2014年12月
+</td></tr>
+<tr>
+<td align="center">VOCALOID 5</td>
+<td align="center">2018年7月12日
+</td></tr></table>
+</center>	
+	<br>
+	<hr>
+	<br>
+	 
+	<div class="div-anime">
+	<center>
+		<table><tr>
+        <td><center><img src="images\一行1.png">
+		<br>
+		<h3><b>对于创建歌词和旋律有困难的用户</b></h3>
+		<br><br>
+		您可以通过从包含的大约1000个短语的列表中选择<br>您喜欢的短语，为您的歌曲添加“歌词”。<br>您再也不需要在网站上搜索歌词和伴奏了。
+		</center></td>
+		
+        <td><center><img src="images\一行2.png">
+		<br>
+		<h3><b>兼容Windows和Mac。支持VST/AU，以提高生产效率</b></h3>
+		<br><br>
+VOCALOID支持Windows和Mac操作环境。 <br>VOCALOID5能够通过允许<br>VST / AU与其他音乐软件协调。</textarea>
+		</center></td>
+		
+		<td><center><img src="images\一行3.png">
+		<br>
+		<h3><b>广泛的视频教程</b></h3>
+		<br><br>
+提供视频教程来解释如何安装VOCALOID5并介绍<br>其每个功能。
+还有海外创作者的视频教程，介绍<br>他们在VOCALOID中使用的音乐制作技巧。</h2>
+		</center></td>
+		</table></tr>
+	</center>
+</div>
+	<br>
+	
+	
+	<br>
+	<hr>
+	<br>
+	<center><img src="images\middle.PNG" width="100%"></center>
+	
+	<br>
+	<hr>
+	<br>
+
+<div class="div-anime">
+<center>
+		<table><tr>
+        <td><center>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\1web_top_lyrics_melody-1.png">
+		<br>
+		<h3><b>只需输入歌词和旋律，让你的电脑唱歌</b></h3>
+		<br><br>
+		只需输入歌词和旋律，即可让您的电脑唱歌。<br>使用VOCALOID和计算机，您可以完全<br>按照您的想象表达一首歌曲。<br>&nbsp;&nbsp;&nbsp;&nbsp;
+		</center></td>
+		
+        <td><center>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\2web_top_styles-1.png">
+		<br>
+		<h3><b>“风格功能”可轻松转换为您喜欢的声乐风格</b></h3>
+		<br><br>
+包括大量的样式预设（超过100种）以匹配<br>各种各样的音乐类型。只需选择您喜欢的，<br>唱歌/声乐风格将自动调整。提供多种风<br>格，包括主唱，背景人声和机器人人声。&nbsp;&nbsp;&nbsp;&nbsp;
+		</center></td>
+		
+		<td><center>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\3web_top_effect-1.png">
+		<br>
+		<h3><b>完整的声乐编辑, 对声乐进行详细调整的功能</b></h3>
+		<br><br>
+VOCALOID5在标准包装中包含11种音频<br>效果。您可以使用新的情感工具功能调整<br>人声，同时密切关注波形。当然，您也<br>可以使用数值参数进行调整。&nbsp;&nbsp;&nbsp;&nbsp;
+		</center></td>
+		</table></tr>
+</center>
+<br>
+<br>
+<center>
+		<table><tr>
+        <td><center>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\4web_top_attack-1.png">
+		<br>
+		<h3><b>打击&释放效果可实现更逼真的声乐表达</b></h3>
+		<br><br>
+		只需单击图标后复制并粘贴,即可<br>轻松实现难以调整的声乐技术(如颤音)<br>这些声乐技巧已经从实际歌手中采样,<br>以获得更逼真的声乐表达。&nbsp;&nbsp;&nbsp;&nbsp;
+		</center></td>
+		
+        <td><center>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\5web_top_emotion-1.png">
+		<br>
+		<h3><b>“情感工具”可以轻松控制人声，同时密切关注波形</b></h3>
+		<br><br>
+您可以使用简单的鼠标操作来调整<br>人声强度，速度，音素长度和其他<br>设置，同时密切关注显示的波形。&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+		</center></td>
+		
+		<td><center>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\6web_top_control_param-2.png">
+		<br>
+		<h3><b>用于调节人声的广泛控制参数</b></h3>
+		<br><br>
+有三个新的/改进的控制参数<br>（Exciter，Air，Breathiness），共有13个参数<br>可根据您的需要调节人声。&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+		</center></td>
+		</table></tr>
+	</center>
+</div>
+
+	<br>
+	<hr>
+	<br>
+	<div class="div-anime2">
+	<center><img src="images\lastUI.jpg" width="1100"></center>
+	</div>
+	<br>
+	<hr>
+	<br>
+	<center>友情链接：<a href="https://henian.taobao.com/" target="_blank">上海禾念</a> | <a href="http://www.wangcheng-sh.com/" target="_blank">上海望乘</a> | <a href="https://shop109464960.taobao.com/" target="_blank">平行四界Quadimension</a> | <a href="https://shop59846142.taobao.com/" target="_blank">音频无限(安达音频)</a> | <a href="https://shop182372242.taobao.com/" target="_blank">MikaiMusic未开封音乐</a> | <a href="https://shop420373622.taobao.com/" target="_blank">新创华</a> | <a href="https://www.vocaloid.com/en/" target="_blank">Vocaloid Official Website</a></center>
+	
+<TD width=11>&nbsp;</TD></TR></TBODY></TABLE>
+<center><TABLE cellSpacing=0 cellPadding=0 width="100%" align=center background="" border=0></center>
+  <TBODY>
+  <TR>
+    <TD width=23>&nbsp;</TD>
+    <TD width="100%">
+      <TABLE height=81 cellSpacing=0 cellPadding=0 width="100%" align=center 
+      background="images\main_006.gif" border=0>
+        <TBODY>
+        <TR>
+          <TD width="1%"><IMG height=81 
+            src="images\main_005.png" width=14></TD>
+          <TD vAlign=top width="100%">
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD align=middle 
+                  height=26>&nbsp;&nbsp;&nbsp;&nbsp;
+				<A href="https://www.vocaloid.com/en/" target="_blank">VOCALOID</A>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+				<A href="https://www.vocaloid.com/en/products" target="_blank">附加语音库</A>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+				<A
+                  href="https://www.vocaloid.com/en/learn" target="_blank">学习</A> 
+                  &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A class=toplink1 
+                  href="https://www.vocaloid.com/en/support" target="_blank">支持</A>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <A class=toplink1 
+                  href="https://www.vocaloid.com/en/news" target="_blank">新闻</A></TD></TR>
+              <TR>
+                <TD align=middle height=50><FONT color=#ffffff>版权所有 Copyright 
+                  &copy; 2019 WorldlineChanger Personal. All rights reserved. </FONT></TD></TR></TBODY></TABLE></TD>
+          <TD align=right width="2%"><IMG height=81 
+            src="images\main_007.png" 
+        width=11></TD></TR></TBODY></TABLE></TD>
+    <TD width=11>&nbsp;</TD></TR></TBODY></TABLE>
+
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1277860913'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1277860913%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	
+</body>
+</html>

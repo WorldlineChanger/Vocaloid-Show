@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta charset="gb2312">
+<head>
+<title>用户反馈页面</title>
+<link rel="icon" href="images/icon.png" sizes="32x32">
+	<script type="text/javascript">
+	function display_alert(){
+	alert("提交成功，感谢支持！");
+	}
+	</script>	
+	<style type="text/css">
+	/*banner自适应屏幕代码*/
+.bannerbox {
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	height:230px;
+	}
+.banner {
+	width:631px; /*图片宽度*/
+	position:absolute;
+	left:50%;
+	margin-left:-315px; /*图片宽度的一半*/
+	}
+
+.title {/* 表单标题 */
+	text-align: center;
+	color: #000000;
+	letter-spacing: 5px;
+	}
+.input {/* 输入框 */
+	box-sizing: border-box;
+	width: 100%;
+	height: 46px;
+	padding-left: 10px;
+	margin: 0 auto;
+	font-size: 16px;
+	outline: none;
+	color:  #000000;
+}
+
+.input:focus {/* 输入框聚焦时 */
+	outline: none;
+	border: 6px solid #66ccff;
+}
+
+.btn1 {/* 按钮1 */
+	background-color: #66ccff;
+	border: none;
+	width: 6%;
+	height: 30px;
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+		
+.btn2 {/* 按钮2 */
+	background-color: #EE0000;
+	border: none;
+	width: 6%;
+	height: 30px;
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.btn1:hover{/* 鼠标移上按钮时透明度 */
+	opacity: 0.85;
+}
+
+.btn2:hover{/* 鼠标移上按钮时透明度 */
+	opacity: 0.85;
+}
+
+*{ margin: 0 auto; padding: 0; font: 18px/24px font-family: "微软雅黑"; }
+nav{ height: 40px; width: 100%; margin-top: 10px; background: #65666d;}/* 导航栏 */
+nav div{ width: 100%;margin: 0 auto;text-align:center;}
+nav a{ color: #fff; font-size: 20px; text-decoration: none; }
+nav li{ list-style: none; padding: 0 80px; line-height: 40px; border-right: solid 1px #56585d; display:inline;}
+nav li:hover{ background: #66ccff }
+	</style>
+	
+</head>
+	<!-- 背景图片 -->
+<body background="backgrounds/bg1.jpg" style="background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:fixed;">
+	<!-- 背景音乐 -->
+	<embed src="audios/Rainy Blue.mp3" hidden="true" autostart="true" loop="true"></embed>
+<div class="bannerbox">
+        <div class="banner">
+			<marquee direction="down" behavior="slide" scrollamount="18" scrolldelay="90">
+            <img src="images\vocaloid logo2.png" width="631" height="230" alt=""/>
+			</marquee>
+        </div>
+</div> 
+
+<nav>	
+		<div>
+			<a href="index.html"><li>首页</li></a>
+			<a href="Vsingers.html"><li>虚拟歌手</li></a>
+			<a href="http://vocakey.info/" target="_blank"><li>资源</li></a>
+			<a href="login.html"><li>用户反馈</li></a>
+			<a href="https://www.vocaloid.com/en/" target="_blank"><li>官网</li></a>
+		</div>
+</nav>
+</head>
+
+	<div class="title">
+<h1 align=center>用户反馈表单</h1>
+	</div>
+<br>
+	<div class="input">
+<form method="post" >
+<center><p>姓&nbsp;&nbsp;&nbsp;&nbsp;名：
+<input type="text" class=txt size="12" maxlength="20" name="username" />
+</p><p>性&nbsp;&nbsp;&nbsp;&nbsp;别：
+<input type="radio" name="gender" value="male" />男
+<input type="radio" name="gender" value="female" />女
+</p><p>年&nbsp;&nbsp;&nbsp;&nbsp;龄：
+<select name="ages" size="1">
+<option value="age15">15
+<option value="age16">16
+<option value="age17">17
+<option value="age18">18
+<option value="age19">19
+<option value="age20">20
+<option value="age21">21
+<option value="age22">22
+<option value="age23">23
+<option value="age24">24
+</select>
+</p><p>
+联系电话：
+<input type="text" class=txt name="tel" />
+</p><p><br>电子邮件：
+<input type="text" class=txt name="email" />
+</p><p><br>联系地址：
+<input type="text"  class=txt name="address" />
+</p>
+<br>
+<p>
+请输入您对网站的建议：<br>
+<textarea name="yourworks" cols ="42" rows = "5"></textarea>
+<br>
+
+<input type="reset" name="submit" value=" 提 交 " class="btn1" onclick="display_alert()"/>&nbsp;&nbsp;&nbsp;
+<input type="reset" name="reset" value=" 清 除 " class="btn2"/>
+
+</p>
+</form>
+		</div>
+	
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1277860913'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1277860913%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+	
+</body>
+</html>

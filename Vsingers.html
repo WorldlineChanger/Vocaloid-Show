@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta charset="gb2312">
+<head>
+<title>虚拟歌手</title>
+<link rel="icon" href="images/icon.png" sizes="32x32">
+	<script type="text/javascript">
+	function preLoadImg(){
+  	var img=new Image();
+  	img.src="images/上 (1).png";
+	}
+	window.onload=preLoadImg();
+	</script>	
+
+	<style type="text/css">
+/* 图片放大动画代码 */
+.div-anime{
+	width: auto;
+	height: auto;
+	margin: 50px auto;
+	/* overflow: hidden; */
+}
+.div-anime img{
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.div-anime img:hover{
+	transform: scale(1.2);
+}
+
+/* banner自适应屏幕代码 */
+.bannerbox {
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    height:230px;
+}
+.banner {
+    width:631px; /* 图片宽度 */
+    position:absolute;
+    left:50%;
+    margin-left:-315px; /* 图片宽度的一半 */
+} 
+
+.back-to-top img {/* 回到顶部按钮样式 */
+	position: fixed;
+	right: 30px;
+	bottom: 80px;
+	width: 60px;
+	height: auto;
+	border: 0px;
+}
+
+*{ margin: 0 auto; padding: 0; font: 18px/24px font-family: "微软雅黑"; }
+nav{ height: 40px; width: 100%; margin-top: 10px; background: #65666d;}/* 导航栏 */
+nav div{ width: 100%;margin: 0 auto;text-align:center;}
+nav a{ color: #fff; font-size: 20px; text-decoration: none; }
+nav li{ list-style: none; padding: 0 80px; line-height: 40px; border-right: solid 1px #56585d; display:inline;}
+nav li:hover{ background: #66ccff }
+	</style>
+
+</head>
+	<!-- 背景图片 -->
+<body background="backgrounds/bg2.jpg" style="background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:fixed;">
+	<!-- 背景音乐 -->
+<embed src="audios/in the autumn sky.mp3" hidden="true" autostart="true" loop="true"></embed>
+	<a class="back-to-top" href="#">
+		<img src="images/上.png" onmouseover="this.src='images/上 (1).png'" onmouseout="this.src='images/上.png'"></a>
+	<div class="bannerbox">
+        <div class="banner">
+			<marquee direction="down" behavior="slide" scrollamount="18" scrolldelay="90">
+            <img src="images\vocaloid logo2.png" width="631" height="230" alt=""/>
+			</marquee>
+        </div>
+    </div> 
+
+<nav>	
+		<div>
+			<a href="index.html"><li>首页</li></a>
+			<a href="Vsingers.html"><li>虚拟歌手</li></a>
+			<a href="http://vocakey.info/" target="_blank"><li>资源</li></a>
+			<a href="login.html"><li>用户反馈</li></a>
+			<a href="https://www.vocaloid.com/en/" target="_blank"><li>官网</li>
+			</a>
+		</div>
+	</nav>	
+<center><b><h1>Virtual Singers</h1></b></center>
+<center><b><h1>CN</h1></b></center>
+	<center><img src="images/中v合.png" width="1200"></center>
+<br>
+<hr>
+<br>
+	<center><b>VOCALOID 3</b></center>
+	<br>
+		<div class="div-anime">
+	<center>
+	<img src="images/V3声库封面洛天依.png" width="300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V3声库封面乐正绫.png" width="270">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V3声库封面言和.png" width="278">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V3声库封面心华.png" width="259">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+	</center>
+	<center><b>洛天依&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乐正绫&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;言和&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;心华</b></center>
+<br>
+<hr>
+<br>
+	<center><b>VOCALOID 4</b></center>
+	<br>
+		<div class="div-anime">
+	<center>
+	<img src="images/V4声库封面洛天依C.png" width="300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V4声库封面洛天依J.png" width="296">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V4声库封面星尘.png" width="284">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V4声库封面墨清弦.png" width="295">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+	</center>
+	<center><b>洛天依CN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;洛天依JP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;星尘&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;墨清弦</b></center>
+	<br>
+	<center>
+		<div class="div-anime">
+	<img src="images/V4声库封面徵羽摩柯.png" width="300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V4声库封面乐正龙牙.png" width="306">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V4声库封面心华C.png" width="298">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V4声库封面心华J.png" width="286">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+	</center>
+	<center><b>徵羽摩柯&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乐正龙牙&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;心华CN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;心华JP</b></center>
+	<br>
+	<center>
+		<div class="div-anime">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V4声库封面巡音.png" width="280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V4声库封面初音.png" width="360">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="images/V4声库封面镜音.png" width="280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+	</center>
+	<center><b>巡音流歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;初音未来&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;镜音双子</b></center>
+<br>
+<hr>
+<br>
+<TR>
+                <center><TD align=middle height=50><FONT color=#ffffff>版权所有 Copyright 
+                  &copy; 2019 WorldlineChanger Personal. All rights reserved. </FONT></TD></TR></center><br>
+	<center>
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1277860913'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1277860913%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</center>
+</body>
+</html>
